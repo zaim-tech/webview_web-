@@ -1,5 +1,5 @@
 <!DOCTYPE html><html><head>
-  <base href="/">
+  <base href="/webview_web-/">
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="">
@@ -22,10 +22,10 @@
       multiView: false,
       noCdn: "False".toLowerCase() == "true",
       webSocketEndpoint: "/ws",
-      entrypointBaseUrl: "/",
-      assetBase: "/",
+      entrypointBaseUrl: "/webview_web-/",
+      assetBase: "/webview_web-/",
       routeUrlStrategy: "path",
-      canvasKitBaseUrl: "/canvaskit/",
+      canvasKitBaseUrl: "/webview_web-/canvaskit/",
       // .mjs is required: python-worker.js is a module worker and loads
       // the runtime via dynamic `import()`. Pyodide >= 0.29 also refuses
       // to run in classic workers. Use the local copy that `flet build`
